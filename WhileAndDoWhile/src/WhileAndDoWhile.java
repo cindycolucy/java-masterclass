@@ -32,7 +32,7 @@ public class WhileAndDoWhile {
         //always will execute at least once
 
         System.out.println("******************");
-        
+
         count = 1;
         do {
             System.out.println("Count value was " + count);
