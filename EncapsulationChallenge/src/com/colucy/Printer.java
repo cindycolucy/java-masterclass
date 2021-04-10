@@ -37,7 +37,7 @@ public class Printer {
     public void printPage(int pages){
         numberOfPagesPrinted = numberOfPagesPrinted + pages;
         if(duplex){
-            numberOfPagesPrinted = numberOfPagesPrinted / 2;
+            numberOfPagesPrinted = (numberOfPagesPrinted / 2) + (numberOfPagesPrinted % 2);
         }
         System.out.println("Number of pages printed is " + numberOfPagesPrinted);
 
